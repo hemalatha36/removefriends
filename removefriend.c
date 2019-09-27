@@ -6,7 +6,7 @@ typedef struct node
 	struct node* prev;
 	int data;
 }node;
-//function to create dll
+
 node* create(node*head,int num)
 {
 	node* nn=(node*)malloc(sizeof(node));
